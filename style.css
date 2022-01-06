@@ -1,15 +1,13 @@
 *{
   margin: 0;
   padding: 0;
-
-  
 }
 
 nav{
   position: relative;
   z-index: 99;
   width: 100%;
-  background: linear-gradient(to bottom, #7288b9, #5c6da3, #49528c, #383875, #281e5d);;
+  background-image: linear-gradient(to bottom,#5c6da3, #7288b9);
 }
 nav .wrapper{
   position: relative;
@@ -25,12 +23,7 @@ nav .wrapper{
 .wrapper .logo  img{
     width: 80px;
 }
-.wrapper .logo a{
-  color: #f2f2f2;
-  font-size: 30px;
-  font-weight: 600;
-  text-decoration: none;
-}
+
 .wrapper .nav-links{
   display: inline-flex;
 }
@@ -47,14 +40,14 @@ nav .wrapper{
   transition: all 0.3s ease;
 }
 .nav-links li a:hover{
-  background: #7288b9;
+  background: #281e5d;
 }
 .nav-links .mobile-item{
   display: none;
 }
 .nav-links .drop-menu{
   position: absolute;
-  background: #49528c;
+  background-image: linear-gradient(to right bottom,#5c6da3, #7288b9, #bb85c9, #dda705d2);
   width: 180px;
   line-height: 45px;
   top: 85px;
@@ -86,7 +79,7 @@ nav .wrapper{
   visibility: hidden;
 }
 .mega-box .content{
-  background: #49528c;
+  background-image: linear-gradient(to right bottom,#5c6da3, #7288b9, #bb85c9, #dda705d2);
   padding: 25px 20px;
   display: flex;
   width: 100%;
@@ -147,7 +140,7 @@ nav .wrapper{
     max-width: 350px;
     top: 0;
     left: -100%;
-    background: #281e5d;
+    background:#7288b9;/*ok*/
     display: block;
     padding: 50px 10px;
     line-height: 50px;
@@ -155,7 +148,7 @@ nav .wrapper{
     box-shadow: 0px 15px 15px rgba(0,0,0,0.18);
     transition: all 0.3s ease;
   }
-  /* custom scroll bar  alterar*/
+  /* custom scroll bar*/
   ::-webkit-scrollbar {
     width: 10px;
   }
@@ -163,7 +156,7 @@ nav .wrapper{
     background: #fcfdff;
   }
   ::-webkit-scrollbar-thumb {
-    background: #7288b9; /*barra de rolagem lateral mobile*/
+    background: #7288b9; /*ok barra de rolagem lateral mobile*/
   }
   #menu-btn:checked ~ .nav-links{
     left: 0%;
@@ -212,7 +205,7 @@ nav .wrapper{
     transition: all 0.3s ease;
   }
   .nav-links .mobile-item:hover{
-    background: #7288b9;; /*alterar*/
+    background: #281e5d; /*ok*/
   }
   .drop-menu li{
     margin: 0;
@@ -275,6 +268,29 @@ nav input{
 }
 /* fim navbar*/
 
+/*iNICIO APRESENTAÇÃO*/
+.apre-titulo{
+ color: black;
+}
+.apre-texto{
+  color: black;
+}
+/*fim de apresentação*/
+
+/*Caroseul pagina inicial*/
+#img-carrossel{
+  width: 600px;
+  height: 430px;
+}
+
+.carousel{
+  margin: 0 0 30px;
+  box-shadow: 0px 15px 15px rgba(0,0,0,0.18);
+}
+
+
+/*Fim Carousel pagina inicial*/
+
 /*inicio seção*/
 
 section{
@@ -287,26 +303,26 @@ section{
 
 }
 
-section:nth-of-type(1){
-  background-image: url(./imgfundo.jpg);
+.section-home:nth-of-type(1){
+  background-image: url(./img/imgfundo.jpg);
   height: 100vh !important;
 }
 
 #section-2{
-  background: #7288b9;
+  background-image: linear-gradient(to bottom, #7288b9, #bb85c9, #dda705d2);
 }
 
-section:nth-of-type(3){
-  background-image: url(./back2.jpg);
+.section-home:nth-of-type(3){
+  background-image: url(./img/back2.jpg);
   height: 100vh !important;
 }
 
 #section-4{
-  background: #5c6da3;
+  background-image: linear-gradient(to bottom, #7288b9, #bb85c9, #dda705d2);
 }
 
-section:nth-of-type(5){
-  background-image: url(./trabalho.jpg);
+.section-home:nth-of-type(5){
+  background-image: url(./img/trabalho.jpg);
   height: 100vh !important;
 }
  
@@ -316,12 +332,8 @@ height: 100%;
 width: 100%;
 position: absolute;
 z-index: 9;
-background:linear-gradient(to bottom, rgba(0,0,0,0)0,rgba(0,0,0,0)40%, #383875 100%);
+background:linear-gradient(to bottom, rgba(0,0,0,0)0,rgba(0,0,0,0)40%, #7288b9 100%);
 }
- #img-carrossel{
-     
-     margin-block-end: 50px;
- }
 
 
 /* Center align the text within the three columns below the carousel */
@@ -345,13 +357,22 @@ background:linear-gradient(to bottom, rgba(0,0,0,0)0,rgba(0,0,0,0)40%, #383875 1
   /* rtl:end:ignore */
 
 
+ /*Inicio carousel empresas parceiras*/
+
+ 
+  
+  /*Fim carousel empresas parceiras*/
+
+
  footer {
-	position: relative;
-	bottom:0;
+  position:relative;
+  bottom:0;
+  left: 0;
 	width:100%;
-  background: #5c6da3;
-  color: #fff;
+  background-image: linear-gradient(to bottom,#5c6da3, #7288b9, #bb85c9, #dda705d2);
+
 }
+ 
 
 #quem-somos{
     text-align: center;
@@ -359,9 +380,9 @@ background:linear-gradient(to bottom, rgba(0,0,0,0)0,rgba(0,0,0,0)40%, #383875 1
 
 footer a{
   text-decoration: none;
-    color: #7288b9;
+    color: #281e5d;
 }
 
 
-/*Responsive mega-menu*/
+
 
