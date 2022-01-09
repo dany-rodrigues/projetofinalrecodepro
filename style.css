@@ -12,7 +12,7 @@ nav .wrapper{
   position: relative;
   max-width: 1300px;
   padding: 0px 30px;
-  height: 70px;
+  height: 100px;
   line-height: 70px;
   margin: auto;
   display: flex;
@@ -401,7 +401,7 @@ background:linear-gradient(to bottom, rgba(0,0,0,0)0,rgba(0,0,0,0)40%, #7288b9 1
 }
 
 .section-empresa:nth-of-type(5){
-  background-image: url(https://www.fundacred.org.br/site/wp-content/uploads/2019/08/caminhos-da-inovacao-legislacao-brasileira-para-a-educacao-02.png);
+  background-image: url(https://www.al.sp.gov.br/repositorio/noticia/N-07-2017/fg205376.jpg);
   height: 100vh !important;
 }
 
@@ -409,7 +409,7 @@ background:linear-gradient(to bottom, rgba(0,0,0,0)0,rgba(0,0,0,0)40%, #7288b9 1
   background-image: linear-gradient(to bottom, #7288b9, #bb85c9, #dda705d2);
 }
 .section-empresa:nth-of-type(7){
-  background-image: url(https://empregodinheiro.com/wp-content/uploads/2012/04/Como-procurar-emprego.jpg);
+  background-image: url(https://fazercurriculolattes.com/wp-content/uploads/2018/04/cv-2.png);
   height: 100vh !important;
 }
 
@@ -428,9 +428,6 @@ background:linear-gradient(to bottom, rgba(0,0,0,0)0,rgba(0,0,0,0)40%, #7288b9 1
   
   /*Fim Pagina para empresas*/
 
-
-
-
  footer {
   position:relative;
   bottom:0;
@@ -439,8 +436,6 @@ background:linear-gradient(to bottom, rgba(0,0,0,0)0,rgba(0,0,0,0)40%, #7288b9 1
   background-image: linear-gradient(to bottom,#281e5d,#5c6da3, #7288b9, #bb85c9, #dda705d2);
 
 }
- 
-
 #quem-somos{
     text-align: center;
 }

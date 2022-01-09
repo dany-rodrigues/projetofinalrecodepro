@@ -27,7 +27,6 @@
     <style>
         body {
             font-family: 'Libre Baskerville', serif;
-            color: white;
             font-size: 15px;
         }
     </style>
@@ -38,73 +37,81 @@
 
         <!--NAVBAR-->
 
-        <nav>
-            <div class="wrapper">
-                <div class="logo"><a href="file:///C:/Users/Remakker/Desktop/Front/DUSurdo/index.html"><img src="./logo.png" alt="logo squad-49"></a></div>
-                <input type="radio" name="slider" id="menu-btn">
-                <input type="radio" name="slider" id="close-btn">
-                <ul class="nav-links">
-                    <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-                    <li><a href="file:///C:/Users/Remakker/Desktop/Front/DUSurdo/index.html">Home</a></li>
-                    <li>
-                        <a href="#" class="desktop-item">Cursos</a>
-                        <input type="checkbox" id="showMega">
-                        <label for="showMega" class="mobile-item">Cursos <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                          </svg></label>
-                        <div class="mega-box">
-                            <div class="content">
-                                <div class="row">
-                                    <img src="./cursos.jpeg" alt="">
-                                </div>
-                                <div class="row">
-                                    <header>Idioma</header>
-                                    <ul class="mega-links">
-                                        <li><a href="#">Inglês I</a></li>
-                                        <li><a class="nav-link disabled" href="#">Inglês II</a></li>
-                                        <li><a class="nav-link disabled" href="#">Inglês III</a></li>
-                                    </ul>
-                                </div>
-                                <div class="row">
-                                    <header>Informática</header>
-                                    <ul class="mega-links">
-                                        <li><a href="#">Excel</a></li>
-                                        <li><a class="nav-link disabled" href="#">Word</a></li>
-                                        <li><a class="nav-link disabled" href="#">Digitação</a></li>
-                                    </ul>
-                                </div>
-                                <div class="row">
-                                    <header>Outros</header>
-                                    <ul class="mega-links">
-                                        <li><a class="nav-link disabled" href="#">Administração</a></li>
-                                        <li><a href="#">Marketing Digital</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li><a href="#">Jogos</a></li>
-                    <li><a href="./oportunidades.html">Oportunidades</a></li>
-                    <li>
-                        <a href="#" class="desktop-item">Para Empresas</a>
-                        <input type="checkbox" id="showDrop">
-                        <label for="showDrop" class="mobile-item">Para Empresas <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                          </svg></label>
-                        <ul class="drop-menu">
-                            <li><a href="#">Apoio</a></li>
-                            <li><a href="#">Dever de Todos</a></li>
-                            <li><a href="#">Divulgue Vagas</a></li>
-                            <li><a href="#">Ofereça Cursos</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="file:///C:/Users/Remakker/Desktop/Front/DUSurdo/contato.html">Contato</a></li>
-                </ul>
-                <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
-            </div>
-        </nav>
-        <!--FIM NAVBAR-->
+            <!--nav bar -->
+
+            <nav>
+              <div class="wrapper">
+                  <div class="logo"><a href="./index.html"><img src="./img/logo.png" alt="logo squad-49"></a></div>
+                  <input type="radio" name="slider" id="menu-btn">
+                  <input type="radio" name="slider" id="close-btn">
+                  <ul class="nav-links">
+                      <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                      <li><a href="./index.html">Início</a></li>
+                      <li>
+                          <a href="./cursos.html" class="desktop-item">Cursos</a>
+                          <input type="checkbox" id="showMega">
+                          <label for="showMega" class="mobile-item">Cursos <svg xmlns="http://www.w3.org/2000/svg"
+                                  width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill"
+                                  viewBox="0 0 16 16">
+                                  <path
+                                      d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                              </svg></label>
+                          <div class="mega-box">
+                              <div class="content">
+                                  <div class="row">
+                                      <img src="img/cursos.jpeg" alt="">
+                                  </div>
+                                  <div class="row">
+                                      <header>Idioma</header>
+                                      <ul class="mega-links">
+                                          <li><a class="nav-link disabled" href="#">Inglês I</a></li>
+                                          <li><a class="nav-link disabled" href="#">Inglês II</a></li>
+                                          <li><a class="nav-link disabled" href="#">Inglês III</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="row">
+                                      <header>Informática</header>
+                                      <ul class="mega-links">
+                                          <li><a class="nav-link disabled" href="#">Excel</a></li>
+                                          <li><a class="nav-link disabled" href="#">Word</a></li>
+                                          <li><a class="nav-link disabled" href="#">Digitação</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="row">
+                                      <header>Outros</header>
+                                      <ul class="mega-links">
+                                          <li><a class="nav-link disabled" href="#">Administração</a></li>
+                                          <li><a class="nav-link disabled" href="#">Marketing Digital</a></li>
+                                          <li><a href="./cursos.html#curso-profissao">Profissão</a></li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </li>
+                      <li><a href="./oportunidades.html">Oportunidades</a></li>
+                      <li>
+                          <a href="./paraempresas.html" class="desktop-item">Para Empresas</a>
+                          <input type="checkbox" id="showDrop">
+                          <label for="showDrop" class="mobile-item">Para Empresas <svg xmlns="http://www.w3.org/2000/svg"
+                                  width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill"
+                                  viewBox="0 0 16 16">
+                                  <path
+                                      d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                              </svg></label>
+                          <ul class="drop-menu">
+                              <li><a href="./paraempresas.html#apoiadores">Apoio</a></li>
+                              <li><a href="./paraempresas.html#dever-de-todos">Dever de Todos</a></li>
+                              <li><a href="./paraempresas.html#divulgue-vagas">Divulgue Vagas</a></li>
+                              <li><a href="./paraempresas.html#ofereca-cursos">Ofereça Cursos</a></li>
+                              <li><a href="./paraempresas.html#fale-conosco">Contato</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="./projetos.html">Projetos</a></li>
+                  </ul>
+                  <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+              </div>
+          </nav>
+          <!--fim nav bar-->
     </header>
 
     <main style="color:black">
